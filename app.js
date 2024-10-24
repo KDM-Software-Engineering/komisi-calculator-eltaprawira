@@ -10,6 +10,19 @@
 
 // TULIS SCRIPT KAMU DI SINI
 
+function calculateKomisi (nilaiKontrak) {
+  if (nilaiKontrak >= 5000000) {
+    return nilaiKontrak * 0.05;
+    }
+
+    else if ( nilaiKontrak >= 1000000)
+      return 100000;
+
+    else{
+      return 0;
+    }
+ 
+}
 
 
 // JANGAN HAPUS / UBAH SCRIPT DI BAWAH
